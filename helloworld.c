@@ -1,14 +1,16 @@
-#include<stdio.h>
-int main(){
-    int age=25;
-    char name = 'A';
-    float pi = 3.14;
-    printf("my age is %d \n",age);
-    printf("my name is %c \n",name);
-    printf("value ofpi %f \n",pi);
+#include <stdio.h>
 
-    printf("Hello, World!\n");
-    printf("Hello, World!");
+int main() {
+    int a,b;
+    
+    printf("enter value of a");
+    scanf("%d",&a);
 
+    printf("enter value of b");
+    scanf("%d",&b);
+
+    int sum = a+b;
+
+    printf("sum is %d",sum);
     return 0;
 }

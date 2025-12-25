@@ -29,6 +29,32 @@ int main(){
     printf("%d\n", !((4>3) && (5<2)));
     */
 
-    //bitwise operators
+    //assignment operator 
+    /*
+    int a=10;
+    int b=20;
+    a+=b; // a = a + b
+    printf("%d\n", a);
+    */
+
+    /*
+
+    int a = 5;
+    int b = a++ + ++a; // output is 5 + 7 = 12
+    printf("%d\n", b);
+    */
+
+    /*
+    int a;
+    printf("enter a number: ");
+    scanf("%d", &a);
+    printf("number is divisible by 2 : %d\n", a%2==0);
+    */
+
+    
+
+
+
+
     return 0;
 }

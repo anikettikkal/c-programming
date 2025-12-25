@@ -51,6 +51,14 @@ int main(){
     printf("number is divisible by 2 : %d\n", a%2==0);
     */
 
+    // ternary operator
+    /*
+    int age;
+    printf("enter your age: ");
+    scanf("%d\n", &age);
+    age>=18 ? printf("you can vote\n") : printf("you cannot vote\n");
+    */
+
     
 
 

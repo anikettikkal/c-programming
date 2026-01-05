@@ -1,0 +1,1 @@
+// collection of a similar data types store at contigious memory locations called array
